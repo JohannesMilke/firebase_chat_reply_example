@@ -1,0 +1,24 @@
+name: myproject_functions
+description: My project functions
+version: 0.0.1
+
+environment:
+  sdk: '>=2.3.0 <3.0.0'
+
+dependencies:
+  # Firebase Functions bindings
+  firebase_functions_interop: ^1.0.2
+  node_interop: ^1.0.3
+  js: ^0.6.1+1
+  firebase_admin_interop: ^2.1.0
+
+  foundation:
+    path: ../../foundation
+
+dependency_overrides:
+  firebase_admin_interop: ^2.1.0
+
+dev_dependencies:
+  # Compile Dart to valid Node.js module.
+  build_runner: ^1.7.3
+  build_node_compilers: ^0.2.0

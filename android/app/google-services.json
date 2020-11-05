@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "982562676943",
+    "firebase_url": "https://fir-chat-reply.firebaseio.com",
+    "project_id": "fir-chat-reply",
+    "storage_bucket": "fir-chat-reply.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982562676943:android:bd8b301208f9c5690357ba",
+        "android_client_info": {
+          "package_name": "com.example.firebase_chat_reply_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982562676943-sm2mhkirv12s69l096ceuh64ftg0dk9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAitzLxEd8f9VaaNon8mViueXx4LNhEkGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982562676943-sm2mhkirv12s69l096ceuh64ftg0dk9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

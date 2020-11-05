@@ -1,0 +1,21 @@
+rules_version = '2';
+
+service cloud.firestore {
+
+  match /databases/{database}/documents {
+    function isNotBanned(){
+      let notBanned=exists(/databases/$(database)/documents/banned/$(request.resource.data.idUser))==false;
+      return notBanned;
+    }
+
+    match /users/{idUser} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    match /chats/{idUser}/messages/{idMessage} {
+      allow read: if true;
+      allow write: if isNotBanned();
+    }
+  }
+}
